@@ -116,7 +116,7 @@ Para terminar el modo `chat`, escribe el valor de `SCAPE_KEYWORD` (por ejemplo, 
 
 ---
 
-## Próximos pasos sugeridos
+## Próximos pasos que se tomaran
 
 - Agregar `requirements.txt` para instalación reproducible.
 - Incorporar el uso completo de `CHAT_MODEL` en un flujo conversacional real (RAG + generación).
