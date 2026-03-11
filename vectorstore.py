@@ -47,7 +47,7 @@ class VectorStore:
     def __init__(self):
         self.ai_client = AI()
         self.chromadb_client = chromadb.PersistentClient(
-            path = f"./{VECTORSTORE_PATH}"
+            path = f"./vectorstores/{VECTORSTORE_PATH}"
         )
         self.chromadb_collection = self.chromadb_client.get_or_create_collection(
             name = VECTORSTORE_PATH,
