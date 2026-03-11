@@ -1,4 +1,4 @@
-# Accountant AI
+# SIMPLE VECTOR STORE
 
 CLI para indexar documentos `.txt` en una base vectorial (ChromaDB) y consultarlos por similitud semántica.
 
